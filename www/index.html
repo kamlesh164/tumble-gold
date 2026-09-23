@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Tumble Gold</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- ===== Header & Hero Section ===== -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="images/logo.png" alt="The Tumble Gold" /></a>
+        </div>
+        <div class="burger" id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-right" id="nav-right">
+            <ul class="nav-links">
+                <li><a href="#" onclick="closeMenu()">Home</a></li>
+                <li><a href="#tumble-section" onclick="closeMenu()">Benefits</a></li>
+                <li><a href="#testimonial-section" onclick="closeMenu()">Testimonials</a></li>
+                <li><a href="#plans-section" onclick="closeMenu()">Pricing</a></li>
+                <li><a href="#faq-section" onclick="closeMenu()">FAQ</a></li>
+            </ul>
+            <a href="#" class="btn-free-trial" onclick="openWhatsApp();closeMenu()">Book free trial</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Gentle Strength<br>for <span>Life</span></h1>
+            <p class="tagline">Rediscover The Joy Of Movement — Because Strength Has No Age.</p>
+            <p class="description">
+                Tumble GOLD helps seniors regain confidence, balance, and strength through guided movement. 
+                Designed by The Tumble Gym team — now empowering India's 50+ community to move better and live fuller.
+            </p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-outline" onclick="openWhatsApp();">Join the movement</a>
+                <a href="#" class="btn-filled" onclick="openWhatsApp();">Book a free trial</a>
+            </div>
+        </div>
+    </section>
+</header>
+
+<!-- ===== Program Section ===== -->
+<section class="program-section">
+  <div class="container">
+    <div class="benefits-container">
+      <div class="benefit-box">
+        <!-- SVG icon for flexibility -->
+        <img src="/images/svg/improved-flexibility.svg" width="48" height="46" alt="Omproved Flexibility icon" />
+        <div>Improved Flexibility</div>
+      </div>
+      <div class="benefit-box">
+          <!-- SVG icon for strength -->
+          <img src="/images/svg/strength-balance.svg" width="48" height="46" alt="Better Strength & Balance icon" />
+          <div>Better Strength &amp; Balance</div>
+      </div>
+      <div class="benefit-box">
+          <!-- SVG icon for confidence -->
+          <img src="/images/svg/social-confidence.svg" width="48" height="46" alt="Social Confidence icon" />
+          <div>Social Confidence</div>
+      </div>
+      <div class="benefit-box">
+          <!-- SVG icon for stress-free -->
+          <img src="/images/svg/stress-free.svg" width="48" height="46" alt="Stree-Free Living icon" />
+          <div>Stress-Free Living</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== About Section ===== -->
+<section id="about-section" class="about-section">
+  <!-- Promo Banner -->
+    <div class="promo-banner-outer">
+      <div class="promo-banner-inner">
+          India's First Dedicated Wellness &amp; Mobility Program for 50+
+      </div>
+    </div>
+    <!-- Description Text -->
+    <div class="description-text">At Tumble GOLD, we believe movement is medicine. Our sessions combine functional exercises, mobility drills, and strength training — customized for individuals over 50.
+    </div>
+    <div class="about-content">
+      <div class="about-img">
+        <img src="/images/full-shot-couple-exercising-outdoor.jpg" alt="Seniors exercising outdoors" />
+      </div>
+      <div class="about-text">
+        <h2>
+          About The <span class="about-pink">Tumble</span> <span class="about-gold">GOLD</span>
+        </h2>
+        <p>
+          The Tumble Gold is a one-of-a-kind wellness and mobility program designed exclusively for adults aged 50 and above.
+        </p>
+        <p>
+          Our mission is to help seniors regain strength, balance, and flexibility through movement — so they can live active, joyful, and independent lives.
+        </p>
+        <p>
+          We combine fitness science, physiotherapy support, and a friendly environment to make aging a confident, happy experience.
+        </p>
+        <a href="#" class="know-more-btn">
+          Know More &nbsp;<span style="font-size: 1.2em;">&#8594;</span>
+        </a>
+      </div>
+    </div>
+</section>
+
+<section id="tumble-section" class="tumble-section">
+  <!-- LEFT SIDE -->
+  <div class="tumble-left">
+    <div class="tumble-card">
+      <h3>Low-impact & Joint-friendly Workouts</h3>
+      <p>Every workout is designed to be gentle on your joints while building strength and flexibility.</p>
+    </div>
+    <div class="tumble-card">
+      <h3>Focus on Posture, Flexibility & Daily Movement</h3>
+      <p>Improve your daily life with exercises that enhance posture and make everyday activities easier.</p>
+    </div>
+    <div class="tumble-card">
+      <h3>Small Groups (Max 12 per Batch)</h3>
+      <p>Personal attention in every session ensures proper form and individual progress tracking.</p>
+    </div>
+    <div class="tumble-card">
+      <h3>Certified Trainers in Elderly Fitness</h3>
+      <p>Our coaches are specially trained in elderly fitness and supported by physiotherapists.</p>
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="tumble-right">
+    <img src="/images/logo-big.png" alt="The Tumble Gold Logo" class="tumble-logo" />
+    <img src="/images/active-people-taking-part-zumla-classes.jpg" alt="Elderly Workout Image" class="tumble-image" />
+  </div>
+
+    <div class="mission-outer">
+        <div class="mission-inner">
+            <div class="mission-text">
+                <div class="mission-title">Our <span class="mission-gold">Mission</span></div>
+                    <div class="mission-desc">
+                        To redefine aging through movement — helping seniors stay strong, mobile, and connected for life.
+                    </div>
+                </div>
+            <div class="mission-image">
+            <img src="/images/woman-their-yoga-classes.jpg" alt="Seniors exercise" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="program-focused-section">
+  <h2 class="program-focused-heading">Program Focused Areas</h2>
+  <div class="program-focused-content">
+    <!-- Left: List with icons -->
+    <div class="program-feature-list">
+      <div class="feature-item">
+        <span class="feature-icon feature1">
+          <img src="/images/svg/mobility.svg" width="30" height="30" alt="Mobility And Flexibility icon" />
+        </span>
+        Mobility And Flexibility
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon feature2">
+          <img src="/images/svg/body-balance.svg" width="30" height="30" alt="Balance & Fall-Prevention Drills icon" />
+        </span>
+        Balance & Fall-Prevention Drills
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon feature3">
+          <img src="/images/svg/strength.svg" width="25" height="25" alt="Strength & Endurance icon" />
+        </span>
+        Strength & Endurance
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon feature4">
+          <img src="/images/svg/posture.svg" width="30" height="30" alt="Posture & Core Stability icon" />
+        </span>
+        Posture & Core Stability
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon feature5">
+          <img src="/images/svg/relax.svg" width="30" height="30" alt="Relaxation & Breath Work icon" />
+        </span>
+        Relaxation & Breath Work
+      </div>
+    </div>
+
+    <!-- Right: Images with new structure -->
+    <div class="program-feature-images">
+      <div class="feature-img main-img">
+        <img src="/images/senior-man-jumping-rope-exercising-beach.jpg" alt="Main Area" />
+      </div>
+      <div class="feature-img top-img">
+        <img src="/images/smiley-elder-woman-doing-push-ups-outdoor.jpg" alt="Sub Area 1" />
+      </div>
+      <div class="feature-img bot-img">
+        <img src="/images/full-shot-man-with-headphone-stretching.jpg" alt="Sub Area 2" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Class Schedule section -->
+<section class="class-schedule-section">
+  <div class="class-schedule-grid">
+    <!-- Left: List -->
+    <div class="schedule-left">
+      <h3 class="schedule-title">Class Structure</h3>
+      <ul class="class-list">
+        <li>
+          <span class="circle-num">1</span>
+          Warm Up And Joint Activation (8 Mins)
+        </li>
+        <li>
+          <span class="circle-num">2</span>
+          Guided Functional Movement (20 Mins)
+        </li>
+        <li>
+          <span class="circle-num">3</span>
+          Balance And Strength Training (15 Mins)
+        </li>
+        <li>
+          <span class="circle-num">4</span>
+          Stretching And Cooldown (7 Mins)
+        </li>
+      </ul>
+    </div>
+    <!-- Right: Table -->
+    <div class="schedule-right">
+      <h3 class="schedule-title">Weekly Schedule Example</h3>
+      <div class="schedule-table">
+        <div class="table-row table-head">
+          <div class="table-cell day-col">Day</div>
+          <div class="table-cell class-col">Class</div>
+          <div class="table-cell time-col">Time</div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell day-col">Mon</div>
+          <div class="table-cell class-col">Strength &amp; Balance</div>
+          <div class="table-cell time-col">9:30 AM – 10:15 AM</div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell day-col">Tue/Thu</div>
+          <div class="table-cell class-col">Functional Mobility</div>
+          <div class="table-cell time-col">10:30 AM – 11:15 AM</div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell day-col">Sat</div>
+          <div class="table-cell class-col">Family Move Together</div>
+          <div class="table-cell time-col">9:30 AM – 10:15 AM</div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell day-col">Sun</div>
+          <div class="table-cell class-col">Holiday</div>
+          <div class="table-cell time-col">-</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How it Works -->
+<section class="how-it-works-section">
+  <div class="hiw-header">
+    <h2 class="hiw-title">How It Works?</h2>
+    <div class="hiw-subtitle">Simple steps to start your wellness journey</div>
+  </div>
+  <div class="hiw-steps-grid">
+    <!-- Box 1 -->
+    <div class="hiw-box hiw-box-text">
+      <div class="hiw-num"><img src="/images/svg/01.svg"></div>
+      <div class="hiw-step-title">Book Your Free Trial</div>
+      <div class="hiw-step-desc">
+        Contact us via WhatsApp to schedule your complimentary trial session at a time that works for you.
+      </div>
+    </div>
+    <!-- Box 2 -->
+    <div class="hiw-box hiw-box-img">
+      <img src="/images/hiw-02.jpg" alt="Book Free Trial" />
+    </div>
+    <!-- Box 3 -->
+    <div class="hiw-box hiw-box-text">
+      <div class="hiw-num"><img src="/images/svg/03.svg"></div>
+      <div class="hiw-step-title">Join Your Group</div>
+      <div class="hiw-step-desc">
+        Get matched with a small group of peers (max 12) for personalized attention and community support.
+      </div>
+    </div>
+    <!-- Box 4 -->
+    <div class="hiw-box hiw-box-img">
+      <img src="/images/hiw-04.jpg" alt="Join Your Group" />
+    </div>
+    <!-- Box 5 -->
+    <div class="hiw-box hiw-box-img">
+      <img src="/images/hiw-01.jpg" alt="Assessment" />
+    </div>
+    <!-- Box 6 -->
+    <div class="hiw-box hiw-box-text">
+      <div class="hiw-num"><img src="/images/svg/02.svg"></div>
+      <div class="hiw-step-title">Initial Assessment</div>
+      <div class="hiw-step-desc">
+        Meet your trainer for a friendly fitness assessment to understand your goals and current fitness level.
+      </div>
+    </div>
+    <!-- Box 7 -->
+    <div class="hiw-box hiw-box-img">
+      <img src="/images/hiw-03.jpg" alt="Start Your Journey" />
+    </div>
+    <!-- Box 8 -->
+    <div class="hiw-box hiw-box-text">
+      <div class="hiw-num"><img src="/images/svg/04.svg"></div>
+      <div class="hiw-step-title">Start Your Journey</div>
+      <div class="hiw-step-desc">
+        Begin your transformation with guided sessions, progress tracking, and ongoing support from our team.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="who-can-join-section">
+  <h2 class="wcj-title">Who Can Join</h2>
+  <section class="arrow-steps-section">
+  <div class="arrow-steps-row">
+    <div class="arrow-step">
+      <div class="arrow-icon">
+        <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
+          <defs>
+            <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#F5B609;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#B47C00;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <rect width="38" height="38" rx="3" fill="url(#arrowGradient)"></rect>
+          <path d="M14 19h10" stroke="#fff" stroke-width="2.7" stroke-linecap="round"></path>
+          <path d="M20.5 15.5L24 19l-3.5 3.5" stroke="#fff" stroke-width="2.7" stroke-linecap="round"></path>
+        </svg>
+      </div>
+      <div class="arrow-text">Anyone aged 50+</div>
+    </div>
+    <div class="arrow-dotline">      </div>
+    <div class="arrow-step">
+      <div class="arrow-icon">
+        <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
+          <defs>
+            <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#F5B609;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#B47C00;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <rect width="38" height="38" rx="3" fill="url(#arrowGradient)"></rect>
+          <path d="M14 19h10" stroke="#fff" stroke-width="2.7" stroke-linecap="round"></path>
+          <path d="M20.5 15.5L24 19l-3.5 3.5" stroke="#fff" stroke-width="2.7" stroke-linecap="round"></path>
+        </svg>
+      </div>
+      <div class="arrow-text">People recovering from<br>mild joint stiffness or balance loss</div>
+    </div>
+    <div class="arrow-dotline">      </div>
+    <div class="arrow-step">
+      <div class="arrow-icon">
+        <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
+          <defs>
+            <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#F5B609;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#B47C00;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <rect width="38" height="38" rx="3" fill="url(#arrowGradient)"></rect>
+          <path d="M14 19h10" stroke="#fff" stroke-width="2.7" stroke-linecap="round"></path>
+          <path d="M20.5 15.5L24 19l-3.5 3.5" stroke="#fff" stroke-width="2.7" stroke-linecap="round"></path>
+        </svg>
+      </div>
+      <div class="arrow-text">Those seeking<br>guided activity,<br>community, and joy</div>
+    </div>
+    <div class="arrow-dotline">      </div>
+    <div class="arrow-step">
+      <div class="arrow-icon">
+        <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
+          <defs>
+            <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#F5B609;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#B47C00;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <rect width="38" height="38" rx="3" fill="url(#arrowGradient)"></rect>
+          <path d="M14 19h10" stroke="#fff" stroke-width="2.7" stroke-linecap="round"></path>
+          <path d="M20.5 15.5L24 19l-3.5 3.5" stroke="#fff" stroke-width="2.7" stroke-linecap="round"></path>
+        </svg>
+      </div>
+      <div class="arrow-text">Seniors leading a<br>sedentary lifestyle</div>
+    </div>
+  </div>
+</section>
+
+
+  <div class="wcj-why-flex">
+    <div class="wcj-why-left">
+      <div class="wcj-why-box">
+        <div class="wcj-why-head"><span>Why Choose</span><br><b>Tumble Gold</b>?</div>
+        <div class="wcj-why-desc">
+          We are not just a fitness program — we're a community. A place where seniors are seen, heard, respected, and helped to flourish.
+        </div>
+      </div>
+    </div>
+    <div class="wcj-why-right">
+      <div class="wcj-why-item">
+        <span class="wcj-list-num">01</span>
+        <div>
+          <b class="wcj-highlight">Empowerment Over Aging</b><br>
+          We believe age is just a number. Every session is designed to help you feel strong, capable, and in control of your health.
+        </div>
+      </div>
+      <div class="wcj-why-item">
+        <span class="wcj-list-num">02</span>
+        <div>
+          <b class="wcj-highlight">Community Over Isolation</b><br>
+          Connect with like-minded individuals who share your journey. Build friendships that extend beyond the gym.
+        </div>
+      </div>
+      <div class="wcj-why-item">
+        <span class="wcj-list-num">03</span>
+        <div>
+          <b class="wcj-highlight">Strength Over Weakness</b><br>
+          Rediscover your physical and mental strength through guided movement and supportive coaching.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonial-section" class="testimonial-section">
+  <h2 class="testimonial-title">What Our Members Say</h2>
+  <div class="testimonial-subtitle">
+    Real stories from real people transforming their lives
+  </div>
+  <div class="testimonial-slider">
+    <div class="testimonial-card card-left">
+      <div class="testimonial-inner">
+        <div class="testimonial-text"></div>
+      </div>
+    </div>
+    <div class="testimonial-card card-center">
+      <div class="testimonial-profile">
+        <img src="" alt="Profile" />
+      </div>
+      <div class="testimonial-info">
+        <div class="testimonial-name"></div>
+        <div class="testimonial-meta"></div>
+      </div>
+      <div class="testimonial-inner">
+        <span class="testimonial-quote-big">“</span>
+        <div class="testimonial-text"></div>
+        <span class="testimonial-quote-big end-quote">”</span>
+      </div>
+    </div>
+    <div class="testimonial-card card-right">
+      <div class="testimonial-inner">
+        <div class="testimonial-text"></div>
+      </div>
+    </div>
+  </div>
+  <div class="testimonial-controls">
+    <button class="tnav tnav-prev" aria-label="Previous"><span><img src="images/svg/left-arrow.svg" height="18" width="18"></span></button>
+    <button class="tnav tnav-next" aria-label="Next"><span><img src="images/svg/right-arrow.svg" height="18" width="18"></span></button>
+  </div>
+</section>
+
+<!-- ==== Plan Section ==== -->
+ <section id="plans-section" class="plans-section">
+  <h2 class="plans-title">Membership Plans</h2>
+  <div class="plans-subtitle">Flexible options to fit your lifestyle</div>
+  <div class="plans-cards">
+    <!-- 1 -->
+    <div class="plan-card plan-dark">
+      <div class="plan-header">Monthly</div>
+      <div class="plan-price">&#8377;3,999<span>/month</span></div>
+      <hr class="plan-divider" />
+      <ul class="plan-list">
+        <li>→ 12 sessions per month</li>
+        <li>→ 3 sessions per week</li>
+        <li>→ Small group training (max 12)</li>
+        <li>→ Initial fitness assessment</li>
+        <li>→ Progress tracking</li>
+        <li>→ Physiotherapist support</li>
+      </ul>
+      <a class="plan-btn plan-btn-gradient" onclick="openWhatsApp('I am interested in Monthly plan. Please explain me briefly.');">Get Started</a>
+    </div>
+    <!-- 2 -->
+    <div class="plan-card plan-featured">
+      <div class="plan-most-popular">Most Popular</div>
+      <div class="plan-header">Quarterly</div>
+      <div class="plan-price">&#8377;10,999<span>/3 months</span></div>
+      <hr class="plan-divider" />
+      <ul class="plan-list">
+        <li>→ 36 sessions (3 months)</li>
+        <li>→ 3 sessions per week</li>
+        <li>→ Small group training (max 12)</li>
+        <li>→ Monthly fitness assessments</li>
+        <li>→ Personalized exercise plan</li>
+        <li>→ Priority physiotherapist support</li>
+        <li>→ Nutrition guidance</li>
+        <li>→ <b>Save &#8377;1,000</b></li>
+      </ul>
+      <a class="plan-btn plan-btn-white-gradient" onclick="openWhatsApp('I am interested in Quarterly plan. Please explain me briefly.');"><span>Get Started</span></a>
+    </div>
+    <!-- 3 -->
+    <div class="plan-card plan-dark">
+      <div class="plan-header">Annual</div>
+      <div class="plan-price">&#8377;39,999<span>/year</span></div>
+      <hr class="plan-divider" />
+      <ul class="plan-list">
+        <li>→ 144 sessions (12 months)</li>
+        <li>→ 3 sessions per week</li>
+        <li>→ Quarterly fitness assessments</li>
+        <li>→ Fully personalized program</li>
+        <li>→ Small group training (max 12)</li>
+        <li>→ Dedicated physiotherapist</li>
+        <li>→ Nutrition &amp; lifestyle coaching</li>
+        <li>→ Free trial for family member</li>
+        <li>→ <b>Save &#8377;8,000</b></li>
+      </ul>
+      <a class="plan-btn plan-btn-gradient" onclick="openWhatsApp('I am interested in Annual plan. Please explain me briefly.');">Get Started</a>
+    </div>
+  </div>
+</section>
+
+<!-- === FAQ Section ==== -->
+<section id="faq-section" class="faq-section">
+  <div class="faq-outerbox">
+    <h2 class="faq-title">Have Questions? Here Are Quick Answers<br>
+      To Some Of The Most Common Queries</h2>
+    <div class="faq-subtitle">
+      Everything you need to know about Tumble GOLD
+    </div>
+    <div class="faq-block">
+      <div class="faq-item faq-item-open">
+        <div class="faq-row">
+          <span class="faq-bar"></span>
+          <span class="faq-q">Is Tumble GOLD suitable for completely beginners?</span>
+          <img class="faq-icon faq-plus" src="/images/svg/plus.svg" alt="Expand" />
+          <img class="faq-icon faq-close" src="/images/svg/close.svg" alt="Close" />
+        </div>
+        <div class="faq-a">
+          Yes! Our sessions are designed for all abilities. We start with a gentle assessment and adapt every movement for your comfort. No prior experience required!
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row">
+          <span class="faq-bar"></span>
+          <span class="faq-q">What if I have existing health conditions or injuries?</span>
+          <img class="faq-icon faq-plus" src="/images/svg/plus.svg" alt="Expand" />
+          <img class="faq-icon faq-close" src="/images/svg/close.svg" alt="Close" />
+        </div>
+        <div class="faq-a">
+          Please inform your trainer about any medical issue, injury, or limitation before joining. Our coaches can modify exercises and offer extra guidance for maximum safety.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row">
+          <span class="faq-bar"></span>
+          <span class="faq-q">What should I wear and bring to sessions?</span>
+          <img class="faq-icon faq-plus" src="/images/svg/plus.svg" alt="Expand" />
+          <img class="faq-icon faq-close" src="/images/svg/close.svg" alt="Close" />
+        </div>
+        <div class="faq-a">
+          Wear comfortable, breathable clothing and supportive shoes. We recommend carrying a water bottle and a small towel.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row">
+          <span class="faq-bar"></span>
+          <span class="faq-q">How long are the sessions?</span>
+          <img class="faq-icon faq-plus" src="/images/svg/plus.svg" alt="Expand" />
+          <img class="faq-icon faq-close" src="/images/svg/close.svg" alt="Close" />
+        </div>
+        <div class="faq-a">
+          Each group session lasts about 45-50 minutes, including warm-up, main exercises, and cool-down.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row">
+          <span class="faq-bar"></span>
+          <span class="faq-q">Can I try a session before committing to a membership?</span>
+          <img class="faq-icon faq-plus" src="/images/svg/plus.svg" alt="Expand" />
+          <img class="faq-icon faq-close" src="/images/svg/close.svg" alt="Close" />
+        </div>
+        <div class="faq-a">
+          Absolutely—your first trial session is free! Meet our team, join a group, and experience the difference risk-free.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row">
+          <span class="faq-bar"></span>
+          <span class="faq-q">What makes Tumble GOLD different from regular gyms?</span>
+          <img class="faq-icon faq-plus" src="/images/svg/plus.svg" alt="Expand" />
+          <img class="faq-icon faq-close" src="/images/svg/close.svg" alt="Close" />
+        </div>
+        <div class="faq-a">
+          We specialize in 50+ fitness. Our trainers are experts in gentle, functional movement. Sessions are small, friendly, and always adapted for your needs.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row">
+          <span class="faq-bar"></span>
+          <span class="faq-q">Are there any age restrictions?</span>
+          <img class="faq-icon faq-plus" src="/images/svg/plus.svg" alt="Expand" />
+          <img class="faq-icon faq-close" src="/images/svg/close.svg" alt="Close" />
+        </div>
+        <div class="faq-a">
+          All adults above 50 are welcome! Our groups are tailored to suit fitness levels from complete beginner to active seniors.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row">
+          <span class="faq-bar"></span>
+          <span class="faq-q">Can I bring a friend or spouse?</span>
+          <img class="faq-icon faq-plus" src="/images/svg/plus.svg" alt="Expand" />
+          <img class="faq-icon faq-close" src="/images/svg/close.svg" alt="Close" />
+        </div>
+        <div class="faq-a">
+          Yes! Training with friends or family can boost motivation and makes sessions more enjoyable. Please let us know in advance for trial scheduling.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Join Section ===== -->
+<section class="join-section">
+<div class="join-content">
+    <p class="sub-heading">Ready to Start?</p>
+    <h2>Join us at The Tumble GOLD, Hennur, Bengaluru</h2>
+    <p class="description"><i>Book your Free Trial Class today — experience movement that nurtures your body and uplifts your spirit.</i></p>
+    <div class="contact-info">
+      <div class="contact-info-flex">
+        <span class="contact-item">
+          <img src="images/svg/call-pin.svg" height="20" width="20"> 
+          <span>+91 96060 23971</span>
+        </span>
+        <span class="contact-item">
+          <img src="images/svg/email-pin.svg" height="20" width="20"> 
+          <a href="mailto:tumblegoldindia@gmail.com">tumblegoldindia@gmail.com</a>
+        </span>
+      </div>
+      <div class="contact-item">
+        <img src="images/svg/location-pin.svg" height="20" width="20"> 
+        <span>5, Indradhanush, Hennur, Bagalur Main Road, Kothanur, Bengaluru - 560077.</span>
+      </div>
+    </div>
+
+</div>
+</section>
+
+<!-- ===== Footer Section ===== -->
+<footer class="footer">
+    <div class="footer-top">
+        <img src="images/footer-logo.png" alt="Tumble Gold Logo" class="footer-logo">
+        <h3 class="footer-title">Tumble <span>Gold</span></h3>
+        <p class="footer-tagline">Gentle Strength for Life By The Tumble GOLD</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 320 512" fill="currentColor">
+                    <path d="M279.14 288l14.22-92.66h-88.91V127.93c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.09 44.38-121.09 124.72v70.62H22.89V288h81.38v224h100.17V288z"/>
+                </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 448 512">
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9S160.5 370.9 224.1 370.9 339 319.6 339 255.9 287.7 141 224.1 141zm0 189.6c-41.2 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.5 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.9-26.9 26.9s-26.9-12-26.9-26.9 12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.7-9.9-67.3-36.2-93.5S364.5 36.1 328.8 34.4C293.1 32.6 154.9 32.6 119.2 34.4 83.5 36.1 51.9 44.3 25.7 70.6S-1.7 118.9.1 154.6c1.8 35.7 1.8 173.9 0 209.6-1.7 35.7 6.5 67.3 32.7 93.5 26.2 26.2 57.8 34.4 93.5 36.2 35.7 1.8 173.9 1.8 209.6 0 35.7-1.7 67.3-9.9 93.5-36.2 26.2-26.2 34.4-57.8 36.2-93.5 1.8-35.7 1.8-173.9 0-209.6zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                </svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 576 512">
+                    <path d="M549.65 124.08a68.77 68.77 0 0 0-48.49-48.49C458.46 64 288 64 288 64s-170.46 0-213.16 11.59a68.77 68.77 0 0 0-48.49 48.49C16.76 166.78 16.76 256 16.76 256s0 89.22 9.59 131.92a68.77 68.77 0 0 0 48.49 48.49C117.54 448 288 448 288 448s170.46 0 213.16-11.59a68.77 68.77 0 0 0 48.49-48.49C559.24 345.22 559.24 256 559.24 256s0-89.22-9.59-131.92zM232.09 334.3V177.7L377.32 256z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="footer-grid">
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#tumble-section">Benefits</a></li>
+                    <li><a href="#testimonial-section">Testimonials</a></li>
+                    <li><a href="#plans-section">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Support</h4>
+                <ul>
+                    <li>
+                      <a href="mailto:tumblegoldindia@gmail.com" class="svg-link">
+                          <img src="images/svg/email.svg" height="20" width="20" alt="Email icon" class="svg-icon">
+                          tumblegoldindia@gmail.com
+                      </a></li>
+                    <li><a href="#faq-section">FAQ's</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Timing Hours</h4>
+                <ul>
+                    <li class="svg-link"><img src="images/svg/time.svg" height="20" width="20" alt="Time icon" class="svg-icon">Mon - Sat: 6:00 AM - 8:00 PM</li>
+                    <li><b>*Sunday: Closed</b></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><img src="images/svg/call.svg" height="20" width="20" alt="Call icon" class="svg-icon"> +91 96060 23971</li>
+                    <li><img src="images/svg/whatsapp.svg" height="20" width="20" alt="whatsapp icon" class="svg-icon"> +91 70192 71281</li>
+                    <li><img src="images/svg/location.svg" height="20" width="20" alt="location icon" class="svg-icon"> 5, Indradhanush, Hennur, Bagalur Main Road, Kothanur, Bengaluru - 560077.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 The Tumble Gold. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    // Mobile menu toggle
+    const burger = document.getElementById('burger-menu');
+    const navRight = document.getElementById('nav-right');
+
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('active');
+        navRight.classList.toggle('active');
+    });
+
+    // Close menu function
+    function closeMenu() {
+        burger.classList.remove('active');
+        navRight.classList.remove('active');
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!burger.contains(e.target) && !navRight.contains(e.target)) {
+            closeMenu();
+        }
+    });
+
+    document.querySelectorAll('.faq-row').forEach(row => {
+      row.addEventListener('click', function(e) {
+        const item = this.parentElement;
+        const isOpen = item.classList.contains('faq-item-open');
+        // Toggle current item's open state
+        document.querySelectorAll('.faq-item').forEach(i => {
+          if(i !== item) i.classList.remove('faq-item-open');
+        });
+        item.classList.toggle('faq-item-open', !isOpen);
+        e.stopPropagation();
+      });
+    });
+
+
+    const testimonials = [
+    {
+      left: "After my knee surgery, I was worried about staying active. The physiotherapist-backed program gave me confidence. Now I can play with my grandchildren without pain. Best decision ever!",
+      center: {
+        name: "Lakshmi Raghavan",
+        meta: "62 Years, Hennur",
+        profile: "/images/testimonial-profile1.jpg",
+        text: `At 62, I thought my active days were behind me. Tumble GOLD proved me wrong! The trainers are patient, the exercises are perfect for my joints, and I've made wonderful friends. I feel 10 years younger!`
+      },
+      right: "The small group setting is perfect. I get personal attention but also the motivation of working out with others my age. My balance has improved tremendously, and I no longer fear falling."
+    },
+    {
+      left: "The small group setting is perfect. I get personal attention but also the motivation of working out with others my age. My balance has improved tremendously, and I no longer fear falling.",
+      center: {
+        name: "Rajesh Shah",
+        meta: "59 Years, Indiranagar",
+        profile: "/images/testimonial-profile1.jpg",
+        text: "Trainers were attentive to my old ankle injury. I never felt left out. I feel energized every day."
+      },
+      right: "I love being able to exercise in a group of peers. It's both motivating and fun."
+    },
+    {
+      left: "I love being able to exercise in a group of peers. It's both motivating and fun.",
+      center: {
+        name: "Susan Fernandes",
+        meta: "67 Years, Whitefield",
+        profile: "/images/testimonial-profile1.jpg",
+        text: "The whole program feels like a community, not a gym. I actually look forward to every session now. It makes me feel truly alive!"
+      },
+      right: "After my knee surgery, I was worried about staying active. The physiotherapist-backed program gave me confidence. Now I can play with my grandchildren without pain. Best decision ever!"
+    }
+  ];
+  let idx = 0;
+  function renderTestimonial() {
+    const t = testimonials[idx];
+    document.querySelector('.card-left .testimonial-text').textContent = t.left;
+    document.querySelector('.card-center .testimonial-profile img').src = t.center.profile;
+    document.querySelector('.card-center .testimonial-name').textContent = t.center.name;
+    document.querySelector('.card-center .testimonial-meta').textContent = t.center.meta;
+    document.querySelector('.card-center .testimonial-text').textContent = t.center.text;
+    document.querySelector('.card-right .testimonial-text').textContent = t.right;
+  }
+  document.querySelector('.tnav-next').onclick = function() {
+    idx = (idx + 1) % testimonials.length; renderTestimonial();
+  };
+  document.querySelector('.tnav-prev').onclick = function() {
+    idx = (idx - 1 + testimonials.length) % testimonials.length; renderTestimonial();
+  };
+  renderTestimonial();
+
+  function openWhatsApp(msg = 'Hi, I want to book a free trial class at Tumble GOLD.') {
+    const phoneNumber = '919606023971';
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    
+    let whatsappURL;
+    if (isMobile) {
+      // Mobile: WhatsApp app directly
+      whatsappURL = `whatsapp://send?phone=${phoneNumber}&text=${encodeURIComponent(msg)}`;
+    } else {
+      // Desktop: WhatsApp Web
+      whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(msg)}`;
+    }
+    
+    window.open(whatsappURL, '_blank');
+  }
+
+  // Better performance with IntersectionObserver
+  const img = document.querySelector('.about-img img');
+
+  if (img) {
+    window.addEventListener('scroll', () => {
+      const container = img.parentElement;
+      const rect = container.getBoundingClientRect();
+      
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        const center = window.innerHeight / 2;
+        const imgCenter = rect.top + rect.height / 2;
+        const diff = (center - imgCenter) / window.innerHeight;
+        
+        const moveY = diff * 10;
+        img.style.transform = `translateY(${moveY}%)`;
+      }
+    });
+
+    window.addEventListener('scroll', function() {
+    const images = [
+      document.querySelector('.tumble-image'),
+      document.querySelector('.about-img img')
+    ];
+    
+    images.forEach(img => {
+      if (!img) return;
+      
+      const container = img.parentElement;
+      const rect = container.getBoundingClientRect();
+      
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        const center = window.innerHeight / 2;
+        const imgCenter = rect.top + rect.height / 2;
+        const diff = (center - imgCenter) / window.innerHeight;
+        
+        const moveY = diff * 10;
+        img.style.transform = `translateY(${moveY}%)`;
+      }
+    });
+  });
+    }
+
+  </script>
+
+</script>
+
+</body>
+</html>
